@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bookstore App</title>
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <h1>Bookstore</h1>
-        <input type="text" id="searchInput" placeholder="Search by title...">
-        <button id="searchButton">Search</button>
-        <div id="searchResults"></div>
+      <h1>Bookstore</h1>
+      <select name="search type" id="searchType">
+        <option value="1813">1813</option>
+        <option value="1925">1925</option>
+        <option value="1949">1949</option>
+        <option value="1951">1951</option>
+        <option value="1960">1960</option>
+      </select>
+      <input type="text" id="searchInput" placeholder="Search by Title..." />
+      <button id="searchButton">Search</button>
+      <div id="searchResults"></div>
     </div>
 
     <script src="./js/bookstore.js"></script>
     <script src="./js/app.js"></script>
-</body>
+  </body>
 </html>
