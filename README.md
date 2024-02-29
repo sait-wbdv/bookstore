@@ -1,6 +1,7 @@
-### bookstore app
+# Bookstore app
 An example app for creating a bookstore 
-# Here is the live website 
+
+### Here is the live website 
 https://sait-wbdv.github.io/bookstore/
 
 
