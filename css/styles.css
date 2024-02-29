@@ -47,4 +47,24 @@ button:hover {
   padding: 10px;
   background-color: #f9f9f9;
   border-radius: 4px;
+  position: relative;
 }
+
+.starList {
+  display: flex;
+  gap: 0.25rem;
+  position: absolute;
+  top: 0;
+  right: 1%;
+}
+
+.star {
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.gold {
+  color: gold;
+}
+
+
