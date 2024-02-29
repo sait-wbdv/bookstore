@@ -12,3 +12,20 @@ function searchBooksByTitle(title) {
   const result = books.filter(book => book.title.toLowerCase().includes(title.toLowerCase()));
   return result.length > 0 ? result : [{ title: "No books found with that title." }];
 }
+
+// Adding a review
+const reviewForm = document.getElementById('reviewForm');
+const reviewInput = document.getElementById('reviewInput');
+const reviewsContainer = document.getElementById('reviewsContainer');
+
+function submitReview() {
+  const reviewText = reviewInput.value.trim();
+  if (reviewText !== '') {
+      const reviewDiv = document.createElement('div');
+      reviewDiv.classList.add('review');
+      reviewDiv.textContent = reviewText;
+      reviewsContainer.appendChild(reviewDiv);
+      // Clear the input field after submitting
+      reviewInput.value = '';
+  }
+}
