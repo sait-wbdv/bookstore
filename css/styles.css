@@ -18,6 +18,14 @@ body {
 h1 {
   margin-bottom: 20px;
 }
+#show-toggle-button {
+  width: 32em;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+  text-align: center;
+}
+
 
 input[type="text"] {
   padding: 8px;
@@ -31,10 +39,20 @@ button {
   color: #fff;
   border: none;
   cursor: pointer;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
+
 
 button:hover {
   background-color: #0056b3;
+}
+
+
+.hide {
+  display: none;
 }
 
 #searchResults {
@@ -47,4 +65,12 @@ button:hover {
   padding: 10px;
   background-color: #f9f9f9;
   border-radius: 4px;
+}
+
+.book-item button {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left:15rem;
+  margin-top: 20px;
 }
