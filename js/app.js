@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   <h3>${book.title}</h3>
                   <p><strong>Author:</strong> ${book.author}</p>
                   <p><strong>Year:</strong> ${book.year}</p>
+                  <input type="text" id="changeTitleInput"  placeholder="Change the title">
               </div>
           `;
       });
